@@ -28,22 +28,21 @@ Learned Docker on Ubuntu EC2, progressing from installation and basic containers
 - Used Docker Compose to run WordPress and MySQL together.
 - Explored volumes, networks, environment variables, and resource inspection.
 
-### Week 4 — Google Cloud Platform ☁️
+### Week 5 — Google Cloud Platform ☁️
 
-Worked with Google Cloud Platform to create and manage GKE Kubernetes infrastructure and deploy an open-source Flask application on Compute Engine.
+Worked with Google Cloud Platform to learn GCP fundamentals, Compute Engine, GKE, and cloud application deployment.
 
-**Week 4 highlights:**
+**Week 5 highlights:**
 
-- Logged into and managed Google Cloud using the `gcloud` CLI.
-- Enabled the Kubernetes Engine API and configured GKE permissions.
+- Set up a GCP project and configured the `gcloud` CLI.
+- Created and managed the `gcp-day2-vm` Compute Engine VM.
+- Deployed Nginx on the VM and accessed it through the VM's public IP.
 - Created a GKE Autopilot cluster named `learning-gke` in `us-central1`.
-- Connected `kubectl` to the GKE cluster.
-- Deployed an Nginx containerized application on GKE.
+- Connected `kubectl` to the GKE cluster and deployed Nginx.
 - Exposed the Nginx application using a Kubernetes LoadBalancer Service.
-- Started and connected to the `gcp-day2-vm` Compute Engine instance.
-- Cloned an open-source Flask application from GitHub.
-- Deployed Flask on the Compute Engine VM using port `5000`.
-- Configured a GCP firewall rule and successfully accessed the application from a browser.
+- Cloned and deployed an open-source Flask application on Compute Engine.
+- Configured a GCP firewall rule to allow Flask traffic on port `5000`.
+- Successfully tested the Flask application from a web browser.
 
 ## Repository structure
 
@@ -52,21 +51,10 @@ Learning-AWS/
 ├── README.md
 ├── Week-2-AWS-Infrastructure/
 ├── Week-3-Docker/
-│   ├── README.md
-│   ├── Day-1-Docker-Introduction/
-│   ├── Day-2-Docker-Images/
-│   ├── Day-3-Docker-Containers/
-│   ├── Day-4-Nginx/
-│   ├── Day-5-Docker-Management/
-│   ├── Day-6-Docker-Workflow/
-│   └── Day-7-Advanced-Docker/
-├── Week-4-Kubernetes/
-└── Week-4-GCP/
-    ├── README.md
-    ├── Day-4-GKE/
-    └── Day-5-Flask-on-Compute-Engine/
+└── Week-5-GCP/
+    └── README.md
 ```
 
 ## Goal
 
-Continue developing practical cloud engineering skills by combining cloud infrastructure, Linux, containers, Kubernetes, networking, automation, and deployment workflows.
+Continue developing practical cloud engineering skills by combining AWS and GCP infrastructure with Linux, containers, Kubernetes, networking, automation, and deployment workflows.
