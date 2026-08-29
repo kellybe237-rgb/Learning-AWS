@@ -1,4 +1,3 @@
-
 # AWS Cloud Internship – Learning Journey 🚀
 
 This repository documents my hands-on AWS and cloud learning journey, organized by week.
@@ -29,23 +28,45 @@ Learned Docker on Ubuntu EC2, progressing from installation and basic containers
 - Used Docker Compose to run WordPress and MySQL together.
 - Explored volumes, networks, environment variables, and resource inspection.
 
+### Week 4 — Google Cloud Platform ☁️
+
+Worked with Google Cloud Platform to create and manage GKE Kubernetes infrastructure and deploy an open-source Flask application on Compute Engine.
+
+**Week 4 highlights:**
+
+- Logged into and managed Google Cloud using the `gcloud` CLI.
+- Enabled the Kubernetes Engine API and configured GKE permissions.
+- Created a GKE Autopilot cluster named `learning-gke` in `us-central1`.
+- Connected `kubectl` to the GKE cluster.
+- Deployed an Nginx containerized application on GKE.
+- Exposed the Nginx application using a Kubernetes LoadBalancer Service.
+- Started and connected to the `gcp-day2-vm` Compute Engine instance.
+- Cloned an open-source Flask application from GitHub.
+- Deployed Flask on the Compute Engine VM using port `5000`.
+- Configured a GCP firewall rule and successfully accessed the application from a browser.
+
 ## Repository structure
 
 ```text
 Learning-AWS/
 ├── README.md
 ├── Week-2-AWS-Infrastructure/
-└── Week-3-Docker/
+├── Week-3-Docker/
+│   ├── README.md
+│   ├── Day-1-Docker-Introduction/
+│   ├── Day-2-Docker-Images/
+│   ├── Day-3-Docker-Containers/
+│   ├── Day-4-Nginx/
+│   ├── Day-5-Docker-Management/
+│   ├── Day-6-Docker-Workflow/
+│   └── Day-7-Advanced-Docker/
+├── Week-4-Kubernetes/
+└── Week-4-GCP/
     ├── README.md
-    ├── Day-1-Docker-Introduction/
-    ├── Day-2-Docker-Images/
-    ├── Day-3-Docker-Containers/
-    ├── Day-4-Nginx/
-    ├── Day-5-Docker-Management/
-    ├── Day-6-Docker-Workflow/
-    └── Day-7-Advanced-Docker/
+    ├── Day-4-GKE/
+    └── Day-5-Flask-on-Compute-Engine/
 ```
 
 ## Goal
 
-Continue developing practical cloud engineering skills by combining AWS infrastructure with Linux, containers, networking, automation, and deployment workflows.
+Continue developing practical cloud engineering skills by combining cloud infrastructure, Linux, containers, Kubernetes, networking, automation, and deployment workflows.
