@@ -44,6 +44,23 @@ Worked with Google Cloud Platform to learn GCP fundamentals, Compute Engine, GKE
 - Configured a GCP firewall rule to allow Flask traffic on port `5000`.
 - Successfully tested the Flask application from a web browser.
 
+### Week 6 — Microsoft Azure ☁️
+
+Worked with Microsoft Azure to learn Azure fundamentals, virtual machines, networking, web application deployment, open-source projects, security, monitoring, performance optimization, and cloud resource cleanup.
+
+**Week 6 highlights:**
+
+- Set up and configured Azure using the Azure Portal and Azure CLI.
+- Learned Azure Virtual Machines, resource groups, networking, and AKS fundamentals.
+- Created and connected to Linux Azure VMs using SSH keys.
+- Deployed Nginx and verified a web server through a VM's public IP.
+- Cloned and deployed an open-source Node.js application from GitHub.
+- Troubleshot a PM2 log permission error and configured application access on port `3000`.
+- Reviewed Azure Monitor and VM performance.
+- Secured a VM by verifying that only SSH port `22` was allowed inbound through its NSG.
+- Enabled Auto-shutdown to reduce unnecessary VM running costs.
+- Cleaned up Azure resources after completing the exercises.
+
 ## Repository structure
 
 ```text
@@ -51,10 +68,12 @@ Learning-AWS/
 ├── README.md
 ├── Week-2-AWS-Infrastructure/
 ├── Week-3-Docker/
-└── Week-5-GCP/
+├── Week-5-GCP/
+│   └── README.md
+└── Week-6-Azure/
     └── README.md
 ```
 
 ## Goal
 
-Continue developing practical cloud engineering skills by combining AWS and GCP infrastructure with Linux, containers, Kubernetes, networking, automation, and deployment workflows.
+Continue developing practical cloud engineering skills by combining AWS, GCP, and Azure infrastructure with Linux, containers, Kubernetes, networking, automation, security, monitoring, and deployment workflows.
