@@ -61,6 +61,24 @@ Worked with Microsoft Azure to learn Azure fundamentals, virtual machines, netwo
 - Enabled Auto-shutdown to reduce unnecessary VM running costs.
 - Cleaned up Azure resources after completing the exercises.
 
+### Week 7 — Helm ⎈
+
+Worked with Helm to package, deploy, secure, optimize, and manage Kubernetes applications using Helm charts and releases.
+
+**Week 7 highlights:**
+
+- Installed and verified Helm `v4.3.0` on macOS.
+- Added and explored the Bitnami Helm repository.
+- Deployed WordPress using a Helm chart and verified it through Minikube.
+- Created, customized, linted, packaged, and deployed a custom Nginx Helm chart.
+- Cloned and deployed the open-source Helm examples `hello-world` chart on GKE Autopilot.
+- Exposed the GKE application using a LoadBalancer Service and verified the Nginx Welcome Page.
+- Configured Kubernetes RBAC with a ServiceAccount, Role, and RoleBinding using least-privilege permissions.
+- Verified allowed and denied Kubernetes actions using `kubectl auth can-i`.
+- Optimized a Helm deployment with two replicas, CPU and memory requests/limits, liveness probes, and readiness probes.
+- Tested Helm upgrades, release history, and rollback to a previous working revision.
+- Cleaned up the Helm releases, temporary Kubernetes resources, and GKE cluster after completing the exercises.
+
 ## Repository structure
 
 ```text
@@ -70,10 +88,12 @@ Learning-AWS/
 ├── Week-3-Docker/
 ├── Week-5-GCP/
 │   └── README.md
-└── Week-6-Azure/
+├── Week-6-Azure/
+│   └── README.md
+└── Week-7-Helm/
     └── README.md
 ```
 
 ## Goal
 
-Continue developing practical cloud engineering skills by combining AWS, GCP, and Azure infrastructure with Linux, containers, Kubernetes, networking, automation, security, monitoring, and deployment workflows.
+Continue developing practical cloud engineering skills by combining AWS, GCP, and Azure infrastructure with Linux, containers, Kubernetes, Helm, networking, automation, security, monitoring, and deployment workflows.
