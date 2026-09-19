@@ -1,6 +1,6 @@
-# AWS Cloud Internship – Learning Journey 🚀
+# My Server Architect Internship Journey 🚀
 
-This repository documents my hands-on AWS and cloud learning journey, organized by week.
+This repository documents my hands-on server architecture, cloud, DevOps, and infrastructure learning journey, organized by week.
 
 ## Weekly progress
 
@@ -102,7 +102,7 @@ Worked with GitHub Actions and Terraform to build CI/CD automation, practice Inf
 ## Repository structure
 
 ```text
-Learning-AWS/
+My-Server-Architect-Internship-Journey/
 ├── README.md
 ├── Week-2-AWS-Infrastructure/
 ├── Week-3-Docker/
@@ -118,4 +118,4 @@ Learning-AWS/
 
 ## Goal
 
-Continue developing practical cloud engineering skills by combining AWS, GCP, and Azure infrastructure with Linux, containers, Kubernetes, Helm, automation, security, monitoring, Infrastructure as Code, and deployment workflows.
+Continue developing practical server architecture and cloud engineering skills by combining AWS, GCP, and Azure infrastructure with Linux, containers, Kubernetes, Helm, automation, security, monitoring, Infrastructure as Code, CI/CD, and deployment workflows.
