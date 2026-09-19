@@ -79,6 +79,26 @@ Worked with Helm to package, deploy, secure, optimize, and manage Kubernetes app
 - Tested Helm upgrades, release history, and rollback to a previous working revision.
 - Cleaned up the Helm releases, temporary Kubernetes resources, and GKE cluster after completing the exercises.
 
+### Week 8 — CI/CD & Terraform 🚀
+
+Worked with GitHub Actions and Terraform to build CI/CD automation, practice Infrastructure as Code, provision GKE infrastructure, deploy an open-source Terraform project on AWS, secure remote Terraform state, review Kubernetes RBAC, and optimize cloud infrastructure configurations.
+
+**Week 8 highlights:**
+
+- Built and verified a GitHub Actions CI/CD workflow using Python.
+- Installed and used GitHub CLI for repository and workflow development.
+- Installed Terraform and practiced the complete `init`, `plan`, `apply`, `show`, and `destroy` workflow.
+- Used Terraform to provision a GKE Autopilot cluster on Google Cloud.
+- Connected `kubectl` to the Terraform-created GKE cluster and verified a Ready node.
+- Learned how GKE deletion protection affects Terraform resource destruction.
+- Cloned and deployed the open-source `terraform-aws-modules/terraform-aws-s3-bucket` project on AWS.
+- Explored Terraform modules, variables, resources, state, and configuration changes.
+- Added an environment variable to make Terraform resource naming more flexible.
+- Configured an encrypted AWS S3 remote backend for Terraform state.
+- Enabled AES-256 encryption and S3 Public Access Block protections for the Terraform state bucket.
+- Reviewed Kubernetes RBAC and least-privilege permissions.
+- Tested `terraform destroy` and cleaned up temporary AWS and GCP infrastructure.
+
 ## Repository structure
 
 ```text
@@ -90,10 +110,12 @@ Learning-AWS/
 │   └── README.md
 ├── Week-6-Azure/
 │   └── README.md
-└── Week-7-Helm/
+├── Week-7-Helm/
+│   └── README.md
+└── Week-8-CICD-Terraform/
     └── README.md
 ```
 
 ## Goal
 
-Continue developing practical cloud engineering skills by combining AWS, GCP, and Azure infrastructure with Linux, containers, Kubernetes, Helm, networking, automation, security, monitoring, and deployment workflows.
+Continue developing practical cloud engineering skills by combining AWS, GCP, and Azure infrastructure with Linux, containers, Kubernetes, Helm, automation, security, monitoring, Infrastructure as Code, and deployment workflows.
